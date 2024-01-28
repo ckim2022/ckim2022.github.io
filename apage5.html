@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <title>Language School</title>
+    <style>
+        html, body {height:89%;}
+        body {width:100%; margin:0; padding:0; font-family: 'Noto Sans KR', sans-serif; }
+        a {text-decoration: none; color:black;}
+        .header {border-bottom:1px solid rgb(134, 134, 134);}
+        .logo {width: 150px; height:30px;  margin:30px; float:left; margin-right:16px;}
+        .logo-img {width: 150px; height:30px;}
+        .position {width:50px; height:50px; border:2px solid rgb(37, 37, 37); border-radius: 50%; display:inline-block; margin-top:20px;}
+        .position-text {padding-top:16px; width:38px; margin:0 auto; font-size:13px;}
+        .cate {display:grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; margin-top:40px;}
+        .cate-item {text-align: center; padding-bottom:6px; }
+        .cate-item span {border-bottom:4px solid aquamarine; padding-bottom:5px;}
+
+        .contents {padding:80px; line-height: 1.8; font-size:17px; font-weight: 400; padding-left:2%; }
+
+        .sec-title {font-size:30px; border-bottom:6px solid aquamarine; width:80px; margin:0 auto; margin-bottom:30px;}
+
+        .wrap-grid {max-width:1200px; margin:0 auto; margin-bottom:60px; }
+
+        .wrap-list { margin:0 auto; font-size:16px;}
+        .list-item {border-bottom:1px solid lightgrey; padding:20px 20px;}
+        .title {font-size:16px; }
+        .date {font-size:12px; color:#414141}
+
+        details summary::marker{font-size:0;}
+        details summary{cursor:pointer;}
+
+        .wrap-inpage {width:1000px; position:relative; z-index: 100; background-color: rgb(247, 247, 247); padding:30px; border:2px solid aquamarine; border-radius: 5px;}
+
+        .wrap-grid-inimg {display: grid; grid-template-columns: 1fr 1fr 1fr; max-width: 700px;}
+
+        .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    
+       
+
+        @media all and (max-width:1023px) {}
+        @media all and (max-width:670px) {
+            .cate-item {font-size:13px; letter-spacing: -0.7px;}
+            .contents {margin:15px; font-size:15px; padding:0 10px; line-height: 1.6;}
+            .wrap-list {margin-left:0; margin-top:10px; }
+            .list-item {padding:0px; padding-top:20px; font-size:13px; margin:0 auto; }
+            .title {font-size:13px;}
+            .wrap-grid {display:block;}
+            .wrap-inpage {width:100%; padding:10px; width:90%; margin-top:10px; border:0;}
+            .sec-title {display:none;}
+            .swiper-button-next,.swiper-button-prev {color:grey;}
+            :root { --swiper-navigation-size: 20px}
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="wrap-body">
+    <div class="header">
+        <a href="index.html"><div class="logo"><img class="logo-img" src="images/logo-m.jpg"></div></a>
+        <div class="position">
+            <div class="position-text">어학원</div>
+        </div>
+        <div class="cate">
+            <div class="cate-item"><a href="apage1.html">About us</a></div>
+            <div class="cate-item"><a href="apage2.html">We do</a></div>
+            <div class="cate-item"><a href="apage3.html">We teach</a></div>
+            <div class="cate-item"><a href="apage4.html">People</a></div>
+            <div class="cate-item"><a href="apage5.html"><span>News</span></a></div>
+            <div class="cate-item"><a href="apage6.html">Gallery</a></div>
+        </div>
+    </div>
+
+    <div class="contents">
+        <div class="sec-title">News</div>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+        
+              <div class="swiper-slide">
+                <div class="wrap-grid">
+                    <div class="wrap-list">
+                            <details class="list-item">
+                                <summary>제 18회 다니엘랩 2022 Thanksgiving Camp in Boston안내
+                                    <div class="date">Aug 27, 2022</div></summary>
+                            <div class="wrap-inpage">
+                                <p>다니엘랩의 시그니처 프로그램!<br>
+                                    제 18회 Thanksgiving Camp in Boston 안내입니다.<br><br>
+                                    일정: 11/18~11/28<br>
+                                    장소: Hyatt Regency Boston / Cambridge<br>
+                                    과목: SSAT / SAT / GPA / AP / Scholastic Art Awards
+                                    <div class="linktxt" style="color:blue;"><a href="http://thedaniellab.com/wp-content/uploads/2022/08/2022-Thanksgiving-in-Boston_%EB%B8%8C%EB%A1%9C%EC%85%94_%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80-%EA%B2%8C%EC%8B%9C%EC%9A%A9.pdf">땡스기빙브로셔보기(클릭)</a></div></p>
+                                    <div class="wrap-grid-inimg">
+                                    <img class="inimg" src="images03/n1.png">
+                                    <img class="inimg" src="images03/n2.jpeg">
+                                    <img class="inimg" src="images03/n3.jpeg">
+                                    <img class="inimg" src="images03/n4.jpeg">
+                                    <img class="inimg" src="images03/n5.png">
+                                    <img class="inimg" src="images03/n6.png">
+                                </div>
+                                </div>
+                            </details>
+            
+                            <details class="list-item">
+                                <summary>다니엘랩 2022 여름특강 고등학교 GPA/AP 프로그램 (9~12학년)
+                                    <div class="date">Apr 4, 2022</div></summary>
+                            <div class="wrap-inpage">
+                                <p>안녕하세요, 다니엘랩입니다.<br>
+                                    새 학년을 준비하기 위한 선행 프로그램입니다.<br>
+                                    다니엘랩에서 알찬 여름 준비하시길 바랍니다.<br>
+                                    기타 문의는 학원으로 연락바랍니다.</p>
+                                    <img src="images03/program1.png">
+                                    <img src="images03/program2.png">
+                                </div>
+                            </details>
+            
+                            <details class="list-item">
+                                <summary>다니엘랩 2022 여름 SAT 프로그램
+                                    <div class="date">Apr 4, 2022</div></summary>
+                            <div class="wrap-inpage">
+                                <p>안녕하세요, 다니엘랩입니다.<br>
+                                    올 여름이 곧 디지털로 바뀌기 전에 고득점으로 마무리 할 마지막 찬스입니다!
+                                    SAT도 결국엔 다니엘랩입니다!<br>
+                                    아이의 수준별로 준비하는 방법은 달라야 합니다.<br>
+                                    우리 아이에게 꼭 맞는 과정으로 준비해보세요<br>
+                                    자세한 문의는 학원으로 문의바랍니다.</p>
+                                    <img src="images03/program3.jpg">
+                                </div>
+                            </details>
+            
+                            <details class="list-item">
+                                <summary>다니엘랩 2022 여름방학 Junior Program (5~8학년)
+                                    <div class="date">Apr 4, 2022</div></summary>
+                            <div class="wrap-inpage">
+                                <p>안녕하세요, 다니엘랩입니다.<br>
+                                    2023년 가을에 시작하는 새 학년을 위한 여름방학 프로그램 안내입니다.<br>
+                                    이 시기의 학생들에게는 일반적인 선행 학습보다는 공부하는 방법이나 습관을 몸에 익히면서 기본기를 다지는 것이 매우 중요합니다.<br>
+                                    우리 아이에게 맞는 계획을 잘 세우고 우리 아이에게 필요한 학업을 효율적으로 할 수 있도록 저희가 도와드리겠습니다.<br>
+                                    자세한 상담은 학원으로 문의 바랍니다.<br>
+                                    아래 이미지를 클릭하시면 PDF 파일로 다운로드해 보실 수 있습니다.</p>
+                                    <a href="http://thedaniellab.com/wp-content/uploads/2022/04/Summer-2022_Junior.pdf"><img src="images03/program4.png"></a>
+                                    <a href="http://thedaniellab.com/wp-content/uploads/2022/04/Summer-2022_SSAT.pdf"><img src="images03/program5.png"></a>
+                                </div>
+                            </details>
+            
+                            <details class="list-item">
+                                <summary>다니엘랩 2021 겨울방학 프로그램 안내
+                                    <div class="date">Dec 8, 2021</div></summary>
+                            <div class="wrap-inpage">
+                                <p>안녕하세요, 다니엘랩입니다.<br>
+                                    오래 기다리셨습니다. 드디어 겨울방학 프로그램이 확정되었습니다.<br>
+                                    이번 겨울방학 프로그램은 전 프로그램 온라인/오프라인 동시에 진행될 예정입니다.<br>
+                                    우리 아이에게 맞는 프로그램을 살펴보시고 학원으로 등록해주세요!<br>
+                                    인기가 많은 과목들이 많으니 등록을 서둘러주시기 바랍니다.<br>
+                                    프로그램 관련 자세한 상담이나 기타 문의는 학원으로 연락바랍니다.</p>
+                                </div>
+                            </details>
+            
+                            <details class="list-item">
+                                <summary>다니엘랩 2021 겨울방학 프로그램안내_SAT
+                                    <div class="date">Dec 8, 2021</div></summary>
+                            <div class="wrap-inpage">
+                                <p>안녕하세요, 다니엘랩입니다.<br>
+                                    그동안 공부해왔던 실력을 다시한번 갈고닦아 고득점으로 향상시킬 수 있는 절호의 기회입니다.<br>
+                                    3월 시험을 대비하기위한, 또는 내년의 SAT를 좀더 수월하게 준비할 수 있는 프로그램으로 구성하였습니다.<br>
+                                    프로그램 관련 자세한 상담이나 기타 문의는 학원으로 연락바랍니다.</p>
+                                    <img src="images03/program6.png">
+                                </div>
+                            </details>
+
+                        </div>
+                </div>
+              </div>
+              <!--swiper1 End-->
+
+              <div class="swiper-slide">
+                <div class="wrap-grid">
+                <div class="wrap-list">
+                    <details class="list-item">
+                        <summary>다니엘랩 2021 겨울방학 프로그램안내_GPA/AP Courses
+                            <div class="date">Dec 8, 2021</div></summary>
+                    <div class="wrap-inpage">
+                        <p>안녕하세요, 다니엘랩입니다.<br>
+                            벌써 가을이 지나 한해를 마무리하고, 새로운 해를 맞이하는 겨울방학이 다가왔네요.<br>
+                            그동안 배웠던것에서 부족한 점은 없는지, 다음학기에 미리 준비할 것은 없는지 점검하기에 적절한 시기입니다.<br>
+                            프로그램 관련 자세한 설명이나 기타 문의는 학원으로 연락바랍니다.</p>
+                            <img src="images03/program7.png">
+                        </div>
+                    </details>
+
+                   <details class="list-item">
+                            <summary>다니엘랩 2021 겨울방학 프로그램안내_주니어 프로그램
+                                <div class="date">Dec 8, 2021</div></summary>
+                        <div class="wrap-inpage">
+                            <p>안녕하세요, 다니엘랩입니다.<br>
+                                2021년을 잘 마무리하고 2022년을 새로이 맞이하는 겨울방학이 되었습니다.<br>
+                                이번학기에 부족했던 부분을, 혹은 다음학기나 내년을 위해 아이들의 실력을 키울 수 있는 프로그램으로 구성하였습니다.<br>
+                                프로그램에 대한 자세한 상담이나 기타 문의사항은 학원으로 연락바랍니다.</p>
+                                <img src="images03/program8.png">
+                            </div>
+                        </details>
+
+                    
+                    <details class="list-item">
+                            <summary>다니엘랩 2021 겨울방학 프로그램 안내_SSAT
+                                <div class="date">Dec 8, 2021</div></summary>
+                        <div class="wrap-inpage">
+                            <p>안녕하세요, 다니엘랩입니다.<br>
+                                2021-2022학년도 마지막 1월 SSAT 시험을 위한 겨울방학 프로그램입니다.<br>
+                                학생들이 열심히 한 만큼 좋은 성과를 얻을 수 있도록 끝까지 최선을 다하도록 하겠습니다.<br>
+                                기타 문의는 학원으로 연락바랍니다.</p>
+                                <img src="images03/program9.png">
+                                <img src="images03/program10.png">
+                            </div>
+                        </details>
+
+        
+                        <details class="list-item">
+                            <summary>다니엘랩 Thanksgiving Camp in Boston 프로그램 안내
+                                <div class="date">Sep 16, 2021</div></summary>
+                        <div class="wrap-inpage">
+                            <p>안녕하세요, 다니엘랩입니다.<br>
+                                제 17회 Thanksgiving Camp in Boston 프로그램 안내드려요<br>
+                                학년별로 필요한 수업들을 알차게 구성하였습니다.<br>
+                                언제나 많이들 찾아주시는 다니엘랩의 시그니처 프로그램입니다.<br>
+                                결코 짧지 않은 땡스기빙 기간동안 가장 효과적인 프로그램으로 12월 시험을 포함하여 좋은 결과로 보답하겠습니다.<br>
+                                <a href="http://thedaniellab.com/wp-content/uploads/2021/10/2021-Thanksgiving-in-Boston_%EB%B8%8C%EB%A1%9C%EC%85%94_Double-Tree.pdf">2021 Thanksgiving in Boston_브로셔(클릭)</a></p>
+                                <div class="wrap-grid-inimg">
+                                    <img class="inimg" src="images03/n7.png">
+                                    <img class="inimg" src="images03/n8.png">
+                                    <img class="inimg" src="images03/n9.png">
+                                    <img class="inimg" src="images03/n10.png">
+                                    <img class="inimg" src="images03/n11.png">
+                                </div>
+                            </div>
+                        </details>
+
+                        <details class="list-item">
+                            <summary>9학년, 10학년을 위한 SAT Foundation 주말반 오픈안내
+                                <div class="date">Sep 13, 2021</div></summary>
+                        <div class="wrap-inpage">
+                            <p>안녕하세요, 다니엘랩입니다.<br>
+                                SAT 시험을 대비하기 위해서는 단순히 기출문제만 많이 푼다고 해결되지 않습니다.<br>
+                                아이들이 어려워하는 지문들은 어려운 것이 아니라 익숙하지 않은 것입니다.<br>
+                                본인의 언어적인 감각에 의존하여 푸는 것이 아니라 정해진 문법 규칙대로 풀어야 완벽한 점수를 얻을 수 있습니다.<br>
+                                다니엘랩과 함께 기본기를 잘 쌓아서 누구보다 빠르게 높은 점수를 받아가세요.<br>
+                                저희 모든 스태프들이 학생이 학업적으로 올바르게 성장할 수 있도록 확실한 방향을 제시하고 이끌어드리겠습니다.믿고 맡겨주세요!</p>
+                                <img src="images03/program11.png">
+                            </div>
+                        </details>
+
+                        <details class="list-item">
+                            <summary>TOEFL 여름방학 정규반 오픈안내
+                                <div class="date">Apr 29, 2021</div></summary>
+                        <div class="wrap-inpage">
+                            <p>안녕하세요, 다니엘랩입니다.<br>
+                                학부모님들의 성원에 힘입어 TOEFL 정규반을 오픈하기로 하였습니다.<br>
+                                지금까지 수많은 성적향상을 이뤄낸 경험과 노하우를 토대로<br>
+                                올한해도 학생들의 TOEFL 고득점과 원하는 학교로의 진학을 위해<br>
+                                최선을 다해 최고로 만들어보이겠습니다.<br>
+                                이미지를 클릭하시면 PDF파일로 볼 수 있습니다.<br>
+                                문의 및 기타과목 상담은 학원으로 연락바랍니다.
+                                감사합니다.</p>
+                                <a href="http://thedaniellab.com/wp-content/uploads/2021/04/TOEFL.pdf"><img src="images03/program12.png"></a>
+                            </div>
+                        </details>
+
+                </div>
+            </div>
+              </div>
+<!--swiper2 End-->
+              <div class="swiper-slide">
+                <div class="wrap-grid">
+                <div class="wrap-list">
+                    <details class="list-item">
+                        <summary>11,12학년을 위한 2021 여름방학 프로그램 (AP)
+                            <div class="date">Apr 15, 2021</div></summary>
+                    <div class="wrap-inpage">
+                        <p>안녕하세요, 다니엘랩입니다.<br>
+                            새로운 학년을 준비하기 위한 여름방학 프로그램을 안내드립니다.<br>
+                            올 한해도 다니엘랩은 학생들의 학업적 성장을 위해 최선을 다하겠습니다.<br>
+                            이미지를 클릭하시면 PDF파일로 볼 수 있습니다.<br>
+                            문의 및 기타과목 상담은 학원으로 연락바랍니다. 감사합니다
+                        </p>
+                        <a href="http://thedaniellab.com/wp-content/uploads/2021/04/SeniorAP.pdf"><img src="images03/program13.png"></a>
+                        </div>
+                    </details>
+
+                   <details class="list-item">
+                            <summary>초,중등 학생들을 위한 2021 여름방학 프로그램
+                                <div class="date">Apr 15, 2021</div></summary>
+                        <div class="wrap-inpage">
+                            <p>안녕하세요, 다니엘랩입니다.<br>
+                                새로운 학년을 준비하기 위한 5~8학년을 위한 여름방학 프로그램을 안내드립니다.<br>
+                                올 한해도 다니엘랩은 학생들의 학업적 성장을 위해 최선을 다하겠습니다.<br>
+                                이미지를 클릭하시면 PDF파일로 볼 수 있습니다.<br>
+                                문의 및 기타과목 상담은 학원으로 연락바랍니다. 감사합니다</p>
+                                <a href="http://thedaniellab.com/wp-content/uploads/2021/04/Junior.pdf"><img src="images03/program14.png"></a>
+                            </div>
+                        </details>
+
+                    
+                    <details class="list-item">
+                            <summary>10학년을 위한 2021 여름방학 프로그램
+                                <div class="date">Apr 15, 2021</div></summary>
+                        <div class="wrap-inpage">
+                            <p>안녕하세요, 다니엘랩입니다.<br>
+                                10학년이 되는, 10학년으로 새로운 학교로 진학하는 학생들을 위한 여름방학 프로그램을 안내드립니다.<br>
+                                올 한해도 다니엘랩은 학생들의 학업적 성장을 위해 최선을 다하겠습니다.<br>
+                                이미지를 클릭하시면 PDF파일로 볼 수 있습니다.<br>
+                                문의 및 기타과목 상담은 학원으로 연락바랍니다. 감사합니다</p>
+                                <img src="images03/program15.png">
+                            </div>
+                        </details>
+
+        
+                        <details class="list-item">
+                            <summary>9학년 학생들을 위한 2021 여름방학 프로그램
+                                <div class="date">Apr 15, 2021</div></summary>
+                        <div class="wrap-inpage">
+                            <p>
+                                안녕하세요, 다니엘랩입니다.<br>
+                                9학년이 되는, 9학년으로 새로운 학교를 진학하는 학생들을 위한 여름방학 프로그램을 안내드립니다.<br>
+                                올 한해도 다니엘랩은 학생들의 학업적 성장을 위해 최선을 다하겠습니다.<br>
+                                이미지를 클릭하시면 PDF파일로 볼 수 있습니다.<br>
+                                문의 및 기타과목 상담은 학원으로 연락바랍니다. 감사합니다
+                            </p>
+                            <img src="images03/program16.png">
+                            </div>
+                        </details>
+
+                        <details class="list-item">
+                            <summary>2021 여름방학 프로그램 (SSAT)
+                                <div class="date">Apr 15, 2021</div></summary>
+                        <div class="wrap-inpage">
+                            <p>안녕하세요, 다니엘랩입니다.<br>
+                                보딩학교지원을 준비하기 위한 필수시험인 SSAT 시험대비 여름방학 프로그램을 안내드립니다.<br>
+                                올 한해도 다니엘랩은 학생들의 목표학교로의 진학을 위해 최선을 다하겠습니다.<br>
+                                이미지를 클릭하시면 PDF파일로 볼 수 있습니다.<br>
+                                문의 및 기타과목 상담은 학원으로 연락바랍니다. 감사합니다
+                            </p>
+                                <img src="images03/program17.png">
+                            </div>
+                        </details>
+
+                        <details class="list-item">
+                            <summary>3월 시험 대비 SAT 특강
+                                <div class="date">Jan 15, 2021</div></summary>
+                        <div class="wrap-inpage">
+                            <p>안녕하십니까, 다니엘랩입니다. The SAT 3월 시험 대비, 마지막 실력 향상을 위한 SAT 준비반이 개설되었습니다. 다년간의 경력을 통해 입증된 Devon 선생님의 차별화된 티칭 전략으로 학생 개개인의 Reading & Writing 약점을 정확히 파악! 맞춤형 실력UP 클리닉으로 자녀분들의 고득점을 책임집니다. 자세한 사항은 아래 내용을 참고하시고, 추가로 궁금한 점은 02-515-7155로 전화 상담 부탁드립니다.<br><br>
+                                감사합니다.</p>
+                                <img src="images03/program18.jpeg">
+                            </div>
+                        </details>
+
+                </div>
+            </div>
+              </div>
+<!--swiper3 End-->
+
+<div class="swiper-slide">
+    <div class="wrap-grid">
+    <div class="wrap-list">
+        <details class="list-item">
+            <summary>2020 겨울방학 프로그램
+                <div class="date">Dec 11, 2020</div></summary>
+        <div class="wrap-inpage">
+            <p>안녕하십니까, 다니엘랩입니다. 사회적 거리두기 2.5단계 격상으로 인하여 이번 겨울방학 동안은 모든 수업 비대면으로 진행하기로 되었습니다.  아이들의 학습 점검을 할 수 있는 중요한 겨울방학이기에,  비대면 수업의 질과 학생들의 집중력을 높일 수 있도록 저희 겨울방학 정규 프로그램은 소규모 수업으로 진행되도록 준비하였습니다. 프로그램 보시고, 궁금한 사항 있으시면 센터로 전화문의 부탁드립니다.
+            </p>
+            <img src="images03/program19.jpeg">
+            </div>
+        </details>
+
+       <details class="list-item">
+                <summary>2020 가을 프로그램
+                    <div class="date">Oct 14, 2020</div></summary>
+            <div class="wrap-inpage">
+                <p>안녕하십니까, 다니엘랩입니다.<br>
+                    SSAT, SAT II를 시험 준비에 박차를 가해야하는 가을입니다. 실전시험이 얼마 남지 않은 만큼 저희 다니엘랩에서 탄탄한 마무리 하실 수 있기를 바랍니다.<br>
+                    저희 프로그램을 아래와 같이 안내드리니, 링크 확인해보시고 문의 사항 있으시면 학원으로 전화 부탁드립니다.<br>
+                    <a href="http://thedaniellab.com/wp-content/uploads/2020/10/Fall-Schedule_thedaniellab.pdf">2020 가을 프로그램</a><br>
+                    감사합니다.</p>
+                </div>
+            </details>
+
+        
+        <details class="list-item">
+                <summary>2020 여름방학 프로그램
+                    <div class="date">Sep 25, 2020</div></summary>
+            <div class="wrap-inpage">
+                <p>안녕하십니까, 다니엘랩 어학원입니다.<br>
+                    2020 여름방학을 맞이하여 저희 Summer 프로그램 스케쥴을 안내드리니, 아래 링크 클릭하셔서 확인 부탁드립니다.<br>
+                    감사합니다.<br>
+                    <a href="http://thedaniellab.com/wp-content/uploads/2020/09/%EC%97%AC%EB%A6%84%EB%B0%A9%ED%95%99%EC%8A%A4%EC%BC%80%EC%A5%B41%EC%B0%A8.pdf">여름방학스케쥴(1차)</a>
+                    <a href="http://thedaniellab.com/wp-content/uploads/2020/09/%EC%97%AC%EB%A6%84%EB%B0%A9%ED%95%99%EC%8A%A4%EC%BC%80%EC%A5%B42%EC%B0%A8.pdf">여름방학스케쥴(2차)</a>
+                    </p>
+                </div>
+            </details>
+
+
+            <details class="list-item">
+                <summary>2019년 겨울방학 프로그램
+                    <div class="date">Dec 13, 2019</div></summary>
+            <div class="wrap-inpage">
+                <p>
+                    안녕하세요.<br>
+                    2019년 다니엘랩 겨울방학 특강 프로그램 스케줄입니다.<br>
+                    궁금한 점이 있으시면 전화나 카카오톡으로 문의 주세요. 감사합니다.
+                </p>
+                <img src="images03/program20.png">
+                </div>
+            </details>
+
+            <details class="list-item">
+                <summary>2019 Summer Program
+                    <div class="date">Apr 15, 2019</div></summary>
+            <div class="wrap-inpage">
+                <p>안녕하세요 압구정 다니엘랩입니다<br>
+                    2019 여름방학 스케쥴이 업데이트되었습니다. 궁금하신 사항은 전화나 카카오톡플러스친구로 카톡주시면 빠른 상담 도와드릴 수 있습니다.<br>
+                    http://pf.kakao.com/_dfgxbj
+                </p>
+                </div>
+            </details>
+
+            <details class="list-item">
+                <summary>2019 Spring Program
+                    <div class="date">Feb 22, 2019</div></summary>
+            <div class="wrap-inpage">
+                <p>안녕하세요 압구정 다니엘랩입니다.<br>
+                    황금돼지해의 봄이 밝았습니다. 올 한해도 학생들의 성적향상을 위해 항상 노력하는 다니엘랩이 되겠습니다.<br>
+                    2019년 봄방학특강 스케쥴입니다.</p>
+                </div>
+            </details>
+    </div>
+</div>
+  </div>
+  <!--swiper4 End-->
+
+  <div class="swiper-slide">
+    <div class="wrap-grid">
+    <div class="wrap-list">
+        <details class="list-item">
+            <summary>2018 Winter Program
+                <div class="date">Dec 4, 2018</div></summary>
+        <div class="wrap-inpage">
+            <p>안녕하십니까, 다니엘랩입니다.<br>
+
+                어느덧 올해도 한달이 채 남지 않았습니다.<br>
+                저희도 아이들도 마지막 남은 시간 서로 잘 활용하여 보람찬  겨울방학 함께 할 수 있기를 바랍니다.<br>
+                자세한 겨울방학 시간표는 아래 링크 클릭 부탁드리며, 자세한 프로그램 문의는 학원으로 전화 부탁드립니다.<br>
+                감사합니다.
+            </p>
+            </div>
+        </details>
+
+       <details class="list-item">
+                <summary>2018 Thanksgiving Camp in Boston
+                    <div class="date">Oct 2, 2018</div></summary>
+            <div class="wrap-inpage">
+                <p>안녕하십니까, 다니엘랩입니다.<br>
+                    이번 캠프는 14회째 진행하는 캠프로 보스턴에서 진행됩니다.<br>
+                    [다니엘랩의 2017년 캠프 성과]<br>
+                    SATII Math/ Chem/ Bio에서 전원 800점!!<br>
+                    SATII Literature 전원 750점 이상 획득!!<br>
+                    짧은 기간이지만 최고의 점수를 이끌어내는 다니엘랩 캠프로 올해의 마지막 시험을 자신있게 준비하시기 바랍니다.<br>
+                    캠프관련 자세한 내용은 아래 링크를 클릭하여 주시고, 캠프 비용 및 GPA 수업 관련해서는 02-3444-0085로 상담 문의 부탁드립니다.<br>
+                    <a href="http://thedaniellab.com/wp-content/uploads/2018/10/2018-Thanksgiving-in-Boston.pdf">2018 Thanksgiving in Boston</a> <br>
+                    감사합니다.</p>
+                </div>
+            </details>
+
+        
+        <details class="list-item">
+                <summary>2018 Summer Program
+                    <div class="date">May 18, 2018</div></summary>
+            <div class="wrap-inpage">
+                <p>안녕하십니까, 다니엘랩입니다. 저희 Summer Program이 6/11부터 개강하오니, 많은 관심 부탁드립니다.<br>
+                    Please click the link below for 2018 summer program.<br>
+                    <a href="http://thedaniellab.com/wp-content/uploads/2018/05/2018-Summer-program-0510-%EA%B0%80%EB%A1%9C.pdf">2018 Summer program</a><br>
+                    프로그램 스케쥴 외의 과목도 신청 가능하십니다. 전화상담: 02-3444-0085
+                    </p>
+                </div>
+            </details>
+    </div>
+</div>
+  </div>
+<!--swiper5 End-->
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+
+
+
+
+    </div>
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>

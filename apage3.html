@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>Language School</title>
+    <style>
+        html, body {height:89%;}
+        body {width:100%; margin:0; padding:0; font-family: 'Noto Sans KR', sans-serif;}
+        a {text-decoration: none; color:black;}
+        .header {border-bottom:1px solid rgb(134, 134, 134);}
+        .logo {width: 150px; height:30px;  margin:30px; float:left; margin-right:16px;}
+        .logo-img {width: 150px; height:30px;}
+        .position {width:50px; height:50px; border:2px solid rgb(37, 37, 37); border-radius: 50%; display:inline-block; margin-top:20px;}
+        .position-text {padding-top:16px; width:38px; margin:0 auto; font-size:13px;}
+        .cate {display:grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; margin-top:40px;}
+        .cate-item {text-align: center; padding-bottom:6px; }
+        .cate-item span {border-bottom:4px solid aquamarine; padding-bottom:5px;}
+
+        .top-title {height:200px; width:100%; background-image: url(images/minibg.jpg); background-position: center; /* Center the image */
+                background-repeat: no-repeat; /* Do not repeat the image */
+                background-size: cover; /* Resize the background image to cover the entire container */
+                text-align: center;
+            margin-top:80px;}
+
+        .top-text {display: inline-block; background-color: aquamarine; font-size: 24px; margin-top:80px;}
+        .contry-border {width:100%; height: 200px; border-bottom:1px solid black; position:absolute;}
+        .contry-name {font-size: 28px;}
+        .wrap-contry {text-align: center; width:400px; height:155px;  line-height: 1.7; margin:0 auto; margin-top:50px; position: relative; }
+        .wrap-wrap-con {display: grid; grid-template-columns: 1fr 1fr; max-width:1000px; margin:0 auto; }
+
+        .contry-dot {width:10px; height:10px; border-radius: 50%; background-color: black; margin-left:50%; margin-top:26px; bottom:0; position:absolute; }
+
+        .warp-class-detail {display:grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; max-width: 900px; margin:0 auto; padding-bottom:70px;}
+        .class-detail {border:1px solid black; border-radius: 20px; width:350px; height:230px; font-size:24px; text-align: center; display: flex;
+        justify-content: center; align-items: center; margin:0 auto; margin-top:60px;}
+
+
+
+        @media all and (max-width:1023px) {}
+        @media all and (max-width:670px) {
+            .cate-item {font-size:13px; letter-spacing: -0.7px;}
+            .top-text {font-size:18px; margin-top:50px;}
+            .top-title {margin-top:30px; height:170px;}
+            .wrap-wrap-con {width:100%;}
+            .contry-name {font-size:20px; margin-bottom:20px;}
+            .contry-border {height: 195px;}
+            .wrap-contry {width:150px; line-height: 0.9; height:150px; }
+            .contry-det {font-size:11px; margin-top:40px; }
+
+            .warp-class-detail {display:block; width:100%;}
+            .class-detail {width:80%; margin-top:10px; font-size:19px; height:190px;}
+        
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div class="header">
+        <a href="index.html"><div class="logo"><img class="logo-img" src="images/logo-m.jpg"></div></a>
+        <div class="position">
+            <div class="position-text">어학원</div>
+        </div>
+        <div class="cate">
+            <div class="cate-item"><a href="apage1.html">About us</a></div>
+            <div class="cate-item"><a href="apage2.html">We do</a></div>
+            <div class="cate-item"><a href="apage3.html"><span>We teach</span></a></div>
+            <div class="cate-item"><a href="apage4.html">People</a></div>
+            <div class="cate-item"><a href="apage5.html">News</a></div>
+            <div class="cate-item"><a href="apage6.html">Gallery</a></div>
+        </div>
+    </div>
+
+    <div class="top-title">
+        <div class="top-text">The Daniel Lab 어학원</div>
+    </div>
+    <div class="contry-border"></div>
+
+    <div class="wrap-wrap-con">
+    <div class="wrap-contry"  data-aos="fade-right" data-aos-duration="1200">
+        <div class="contry-name">Seoul</div>
+        <dlv class="contry-det">
+            서울시 강남구 언주로 172길 13, 1층 02-515-7155<br>
+            1st Floor, 13 172-gil Eonju-ro Gangnam-gu Seoul<br>
+            lighthouse.cons.kr@gmail.com<br>
+        </dlv>
+        <div class="contry-dot"></div>
+    </div>
+
+    <div class="wrap-contry" data-aos="fade-left" data-aos-duration="1200">
+        <div class="contry-name">Boston Center</div>
+        <dlv class="contry-det">
+            131 Coolidge Ave, Ste 128 Watertown, MA 02472<br>
+            lighthouse.cons.kr@gmail.com<br>
+            1-617-959-2790<br>
+        </dlv>
+        <div class="contry-dot"></div>
+    </div>
+   </div>
+      <div class="warp-class-detail"  data-aos="fade-up" data-aos-duration="1200">
+        <div class="class-detail">GPA 관리를 위한<br>온/오프라인 수업</div> 
+        <div class="class-detail">SSAT, SAT, SAT II, AP,<br> TOEFL등 시험 준비반</div> 
+        <div class="class-detail">학교 온라인 수업 체크업<br> 개인/그룹 수업</div> 
+        <div class="class-detail">여름/겨울/봄 특강,<br>Boston Thanksgiving Camp</div> 
+    </div>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>

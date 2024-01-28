@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>Language School</title>
+    <style>
+        html, body {height:89%;}
+        body {width:100%; margin:0; padding:0; font-family: 'Noto Sans KR', sans-serif;}
+        a {text-decoration: none; color:black;}
+        .header {border-bottom:1px solid rgb(134, 134, 134);}
+        .logo {width: 150px; height:30px; margin:30px; float:left; margin-right:16px;}
+        .logo-img {width: 150px; height:30px;}
+        .position {width:50px; height:50px; border:2px solid rgb(37, 37, 37); border-radius: 50%; display:inline-block; margin-top:20px;}
+        .position-text {padding-top:16px; width:38px; margin:0 auto; font-size:13px;}
+        .cate {display:grid; grid-template-columns: 1fr 1fr 1fr 1fr; margin-top:40px;}
+        .cate-item {text-align: center; padding-bottom:6px;}
+        .cate-item span {border-bottom:4px solid aquamarine; padding-bottom:5px;}
+
+        .contents {line-height: 1.8; max-width: 800px;  margin:0 auto; margin-top:50px; padding:30px;}
+        .bon {max-width: 800px;  margin:0 auto; }
+
+        .wrap-body {height:auto; min-height:100%; padding-bottom:180px;}
+        footer {height:auto; position:relative; transform: translateY(-100%); background-color: rgb(37, 37, 37); color:rgb(152, 152, 152);}
+        .wrap-foot {display:grid; grid-template-columns: 1fr 1fr;}
+        .join {padding:50px;}
+        .title {font-size:20px; color:white;}
+        .wrap-detail {margin-top:16px;}
+        .detail {font-size:11px; margin-top:3px;}
+        .detail span {color:red;}
+        .where {padding-top:50px;}
+
+        .text-intro {font-size: 20px; width:700px;}
+        .text-cont {margin-top:40px; max-width:900px;}
+        .bon {margin-top:60px; padding:30px;}
+        .bon-title {font-size:20px; text-decoration: underline;}
+        .bon-cont {margin-top:30px;}
+        .program {width:700px;}
+        
+
+        @media all and (max-width:1023px) {}
+        @media all and (max-width:670px) {
+            .cate-item {font-size:13px; letter-spacing: -0.7px;}
+            .contents {margin:0; font-size:15px; line-height: 1.6;}
+            .text-intro {width:100%; font-size:17px;}
+            .text-cont {margin-top:25px; font-size:15px; line-height: 1.8;}
+            .bon {width:90%; padding:0; margin-top:20px;}
+            .bon-title {font-size:15px;}
+            .bon-cont {font-size:13px; margin-top:10px;}
+            .proc {width:100%; margin-top:10px;}
+            .program {width:90%; margin:0 auto; margin-top:30px;}
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap-body">
+    <div class="header">
+        <a href="index.html"><div class="logo"><img class="logo-img" src="images/logo-m.jpg"></div></a>
+        <div class="position">
+            <div class="position-text">유학원</div>
+        </div>
+        <div class="cate">
+            <div class="cate-item"><a href="page1.html">Who we are</a></div>
+            <div class="cate-item"><a href="page2.html"><span>What we do</span></a></div>
+            <div class="cate-item"><a href="page3.html">등대지기프로그램</a></div>
+            <div class="cate-item"><a href="page4.html">Matriculations</a></div>
+        </div>
+    </div>
+
+    <div class="contents">
+        <div class="text-intro" data-aos="fade-down" data-aos-duration="1200">
+            아이의 성공적인 유학을 준비하기 위해서는 장기간의 플랜이 필요합니다.<br>
+            아이와 학부모에게 맞는 컨설팅팀으로 시행착오 없는 유학준비를 도와 드리겠습니다. 
+        </div>
+        <div class="text-cont" data-aos="fade-down" data-aos-duration="1200">
+            내신, 공식 시험 성적, 인터뷰, 그 외 봉사활동과 액티비티들을 잘 어우러지게 학교에 맞게 준비해 드릴 수 있는 컨설팅 팀이 저희 라이트하우스에 있습니다. 컨설팅 팀은 길게 보면 일년동안 함께할 파트너기에 학부모님과의 관계도 중요하지만 학생과의 호흡도 중요하므로 이번 봄방학 동안 아이와 함께 꼭 한 번 상담해 보시고 결정하시기를 바랍니다.
+        </div>
+    </div>
+    <div class="bon" class="text-intro" data-aos="fade-down" data-aos-duration="1200">
+        <div class="bon-title">1. Consulting Program</div>
+        <div class="bon-cont">Junior Boarding, Senior Boarding, College Application 
+            Interview Preparation</div>
+        <div class="bon-cont"><img class="proc" src="images/proc.jpg"></div>
+    </div>
+
+    <div class="bon"  class="text-intro" data-aos="fade-down" data-aos-duration="1200">
+        <div class="bon-title">2. 등대지기 Program <br>(전문 컨설턴트들로 이루어진 서울/보스턴 관리팀)</div>
+        <div class="bon-cont">Junior Boarding, Senior Boarding, College Application 
+            Interview Preparation</div>
+        <div class="bon-cont"><img class="program" src="images/program.svg"></div>
+    </div>
+
+</div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
